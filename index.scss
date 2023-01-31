@@ -1,0 +1,65 @@
+$orange100: #2e1809;
+$orange200: #5b3111;
+$orange300: #89491a;
+$orange400: #b66122;
+$orange: #d97b36;
+$orange600: #e1955e;
+$orange700: #e8b086;
+$orange800: #f0caaf;
+$orange900: #f7e5d7;
+
+$green100: #1f2b16;
+$green200: #3e562c;
+$green300: #5d8142;
+$green400: #7caa59;
+$green: #9ec084;
+$green600: #b1cd9d;
+$green700: #c5d9b5;
+$green800: #d8e6ce;
+$green900: #ecf2e6;
+
+$blue100: #0d242a;
+$blue200: #194953;
+$blue300: #266d7d;
+$blue400: #3391a6;
+$blue: #48b0c7;
+$blue600: #6dc0d2;
+$blue700: #91d0dd;
+$blue800: #b6dfe9;
+$blue900: #daeff4;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  background: linear-gradient(to bottom right, $blue, $green);
+  font-size: 1.5rem;
+}
+
+main {
+  color: $orange300;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.logo {
+  height: 20em;
+}
+
+.heart:after {
+  content: "❤️";
+
+  font-size: 1.75em;
+}
+
+h1 + .subtitle {
+  display: block;
+  margin-top: -1em;
+}
